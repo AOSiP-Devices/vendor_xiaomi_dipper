@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
 	vendor/xiaomi/dipper/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/libnqnfc-nci.so:system/lib64/libnqnfc-nci.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/libnqnfc_nci_jni.so:system/lib64/libnqnfc_nci_jni.so:qcom \
+        vendor/xiaomi/dipper/proprietary/lib64/libnqp61-jcop-kit.so:system/lib64/libnqp61-jcop-kit.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:system/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.nxp.hardware.nfc@1.0.so:system/lib64/vendor.nxp.hardware.nfc@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.nxp.nxpese@1.0.so:system/lib64/vendor.nxp.nxpese@1.0.so:qcom \

@@ -38,11 +38,6 @@ PRODUCT_PACKAGES += \
 	QtiSystemService \
 	qcrilmsgtunnel \
 	qcrilhook \
-	QtiTelephonyServicelibrary
-
-ifeq ($(TARGET_USES_NQ_NFC),true)
-PRODUCT_PACKAGES += \
+	QtiTelephonyServicelibrary\
 	NQNfcNci \
 	com.nxp.nfc.nq
-
-endif

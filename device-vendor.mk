@@ -14,14 +14,19 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_DEVICE),dipper)
-
 PRODUCT_COPY_FILES += \
+	vendor/xiaomi/dipper/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/vendor.nxp.hardware.nfc@1.0.so:system/lib/vendor.nxp.hardware.nfc@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libnqnfc-nci.so:system/lib64/libnqnfc-nci.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libnqnfc_nci_jni.so:system/lib64/libnqnfc_nci_jni.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:system/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.nxp.hardware.nfc@1.0.so:system/lib64/vendor.nxp.hardware.nfc@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.nxp.nxpese@1.0.so:system/lib64/vendor.nxp.nxpese@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.nxp.nxpnfc@1.0.so:system/lib64/vendor.nxp.nxpnfc@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/nqnfcee_access.xml:system/etc/nqnfcee_access.xml:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/nqnfcse_access.xml:system/etc/nqnfcse_access.xml:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/permissions/com.nxp.nfc.nq.xml:system/etc/permissions/com.nxp.nfc.nq.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml:qcom \
@@ -34,4 +39,10 @@ PRODUCT_PACKAGES += \
 	qcrilmsgtunnel \
 	qcrilhook \
 	QtiTelephonyServicelibrary
+
+ifeq ($(TARGET_USES_NQ_NFC),true)
+PRODUCT_PACKAGES += \
+	NQNfcNci \
+	com.nxp.nfc.nq
+
 endif

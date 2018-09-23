@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),dipper)
+#ifeq ($(PRODUCT_DEVICE),dipper)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := QtiSystemService
@@ -72,4 +72,36 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
-endif
+include $(CLEAR_VARS)
+LOCAL_MODULE := NQNfcNci
+LOCAL_MODULE_OWNER := qcom
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := proprietary/app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_OVERRIDES_PACKAGES := NfcNci
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.nxp.nfc.nq
+LOCAL_MODULE_OWNER := qcom
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := NfcLinks
+LOCAL_MODULE_OWNER := qcom
+LOCAL_MODULE_TAGS := optional
+
+LOCAL_POST_INSTALL_CMD := \
+        mkdir -p $(PRODUCT_OUT)/system/app/NQNfcNci/lib/arm64; \
+        ln -sf /system/lib64/libnqnfc_nci_jni.so $(PRODUCT_OUT)/system/app/NQNfcNci/lib/arm64/libnqnfc_nci_jni.so
+
+include $(BUILD_PHONY_PACKAGE)
+#endif

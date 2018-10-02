@@ -28,7 +28,3 @@ PRODUCT_PACKAGES += \
 	qcrilmsgtunnel \
 	qcrilhook \
 	QtiTelephonyServicelibrary
-
-PRODUCT_COPY_FILES += \
-        vendor/xiaomi/dipper/proprietary/etc/nfcee_access.xml:system/etc/nqnfcee_access.xml:qcom \
-        vendor/xiaomi/dipper/proprietary/etc/nfcse_access.xml:system/etc/nqnfcse_access.xml:qcom

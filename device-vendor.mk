@@ -28,3 +28,7 @@ PRODUCT_PACKAGES += \
 	qcrilmsgtunnel \
 	qcrilhook \
 	QtiTelephonyServicelibrary
+
+# WLAN
+PRODUCT_COPY_FILES += vendor/xiaomi/dipper/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko
+

@@ -44,6 +44,52 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.ims.rcsconfig@1.0.so:system/lib/vendor.qti.ims.rcsconfig@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.latency@2.0.so:system/lib/vendor.qti.latency@2.0.so \
+	vendor/xiaomi/dipper/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/com.qualcomm.qti.uceservice@2.0.so:system/lib/com.qualcomm.qti.uceservice@2.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/com.quicinc.cne.server@1.0.so:system/lib/com.quicinc.cne.server@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.display.color@1.1.so:system/lib/vendor.display.color@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.display.color@1.2.so:system/lib/vendor.display.color@1.2.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.display.config@1.0.so:system/lib/vendor.display.config@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.display.config@1.1.so:system/lib/vendor.display.config@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.display.config@1.2.so:system/lib/vendor.display.config@1.2.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.goodix.hardware.fingerprintextension@1.0.so:system/lib/vendor.goodix.hardware.fingerprintextension@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.alarm@1.0.so:system/lib/vendor.qti.hardware.alarm@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.automotive.vehicle@1.0.so:system/lib/vendor.qti.hardware.automotive.vehicle@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.camera.device@1.0.so:system/lib/vendor.qti.hardware.camera.device@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:system/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.factory@1.0.so:system/lib/vendor.qti.hardware.factory@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so:system/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.scve.objecttracker@1.0.so:system/lib/vendor.qti.hardware.scve.objecttracker@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so:system/lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.scve.panorama@1.0.so:system/lib/vendor.qti.hardware.scve.panorama@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:system/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.soter@1.0.so:system/lib/vendor.qti.hardware.soter@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so:system/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so:system/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.voiceprint@1.0.so:system/lib/vendor.qti.voiceprint@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so:system/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so:system/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:system/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so:system/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.mfidoca@1.0.so:system/lib/vendor.xiaomi.hardware.mfidoca@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.mlipay@1.0.so:system/lib/vendor.xiaomi.hardware.mlipay@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:system/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.mtdservice@1.1.so:system/lib/vendor.xiaomi.hardware.mtdservice@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:system/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:system/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:system/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so \
 	vendor/xiaomi/dipper/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:qcom \
@@ -76,6 +122,53 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.latency@2.0.so:system/lib64/vendor.qti.latency@2.0.so \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:system/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:system/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/com.qualcomm.qti.uceservice@2.0.so:system/lib64/com.qualcomm.qti.uceservice@2.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/com.quicinc.cne.server@1.0.so:system/lib64/com.quicinc.cne.server@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.display.color@1.1.so:system/lib64/vendor.display.color@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.display.color@1.2.so:system/lib64/vendor.display.color@1.2.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.display.config@1.0.so:system/lib64/vendor.display.config@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.display.config@1.1.so:system/lib64/vendor.display.config@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.display.config@1.2.so:system/lib64/vendor.display.config@1.2.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so:system/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.alarm@1.0.so:system/lib64/vendor.qti.hardware.alarm@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so:system/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.camera.device@1.0.so:system/lib64/vendor.qti.hardware.camera.device@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:system/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.factory@1.0.so:system/lib64/vendor.qti.hardware.factory@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so:system/lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so:system/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so:system/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.scve.panorama@1.0.so:system/lib64/vendor.qti.hardware.scve.panorama@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.soter@1.0.so:system/lib64/vendor.qti.hardware.soter@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.wifi.keystore@1.0.so:system/lib64/vendor.qti.hardware.wifi.keystore@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:system/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:system/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so:system/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.voiceprint@1.0.so:system/lib64/vendor.qti.voiceprint@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so:system/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so:system/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:system/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so:system/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:system/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:system/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:system/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:system/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so:system/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so:system/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml:qcom \

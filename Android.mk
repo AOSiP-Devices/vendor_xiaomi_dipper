@@ -185,4 +185,16 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := ImsLinks
+LOCAL_MODULE_OWNER := qcom
+LOCAL_MODULE_TAGS := optional
+ LOCAL_POST_INSTALL_CMD := \
+        mkdir -p $(PRODUCT_OUT)/system/priv-app/ims/lib/arm64; \
+        ln -sf /system/lib64/libimsmedia_jni.so $(PRODUCT_OUT)/system/priv-app/ims/lib/arm64/libimsmedia_jni.so; \
+	ln -sf /system/lib64/libimscamera_jni.so $(PRODUCT_OUT)/system/priv-app/ims/lib/arm64/libimscamera_jni.so
+
+include $(BUILD_PHONY_PACKAGE)
+
 #endif

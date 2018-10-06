@@ -101,7 +101,8 @@ PRODUCT_PACKAGES += \
 	uimremotesimlocklibrary \
 	uimservicelibrary \
 	vendor.qti.ims.callinfo-V1.0-java \
-	vendor.qti.ims.rcsconfig-V1.0-java
+	vendor.qti.ims.rcsconfig-V1.0-java \
+	ImsLinks
 
 # WLAN
 PRODUCT_COPY_FILES += vendor/xiaomi/dipper/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko

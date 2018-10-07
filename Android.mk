@@ -234,7 +234,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := cneapiclient.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -244,7 +244,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qti.dpmframework.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -254,7 +254,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.qti.uceservice-V2.0-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -264,7 +264,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.api-V1.0-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -274,7 +274,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.api-V1.1-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -284,7 +284,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.constants-V1.0-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -294,7 +294,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.constants-V2.0-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -304,7 +304,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.constants-V2.1-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -314,7 +314,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -324,7 +324,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.server-V1.0-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -334,7 +334,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.server-V2.0-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -344,7 +344,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.server-V2.1-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -354,7 +354,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne.server-V2.2-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -364,7 +364,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := dpmapi.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -374,7 +374,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := embmslibrary.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -384,7 +384,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.qti.hardware.data.latency-V1.0-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -394,7 +394,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.qti.hardware.data.qmi-V1.0-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -404,7 +404,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.qti.latency-V2.0-java.jar
 LOCAL_MODULE_OWNER := qcom
-LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE).jar
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES

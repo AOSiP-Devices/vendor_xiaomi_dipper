@@ -196,6 +196,10 @@ PRODUCT_PACKAGES += \
 	QtiTelephonyServicelibrary \
 	ims \
 	imssettings \
+	CNEService \
+	embms \
+	dpmserviceapp \
+	uceShimService \
 	com.qualcomm.qti.imscmservice-V2.0-java \
 	com.qualcomm.qti.imscmservice-V2.1-java \
 	qti-telephony-common \
@@ -218,7 +222,7 @@ PRODUCT_PACKAGES += \
 	com.quicinc.cne.server-V1.0-java.jar \
 	com.quicinc.cne.server-V2.0-java.jar \
 	com.quicinc.cne.server-V2.1-java.jar \
-		com.quicinc.cne.server-V2.2-java.jar \
+	com.quicinc.cne.server-V2.2-java.jar \
 	dpmapi.jar \
 	embmslibrary.jar \
 	vendor.qti.hardware.data.latency-V1.0-java.jar \

@@ -15,6 +15,7 @@
 #
 
 PRODUCT_COPY_FILES +=\
+	vendor/xiaomi/dipper/proprietary/bin/dpmd:system/bin/dpmd:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
 	vendor/xiaomi/dipper/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:qcom \
@@ -169,6 +170,14 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:system/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so:system/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so:system/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/permissions/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml:qcom \
@@ -176,7 +185,8 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml:qcom \
-	vendor/xiaomi/dipper/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml:qcom
+	vendor/xiaomi/dipper/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/sensitive_pn.xml:system/etc/sensitive_pn.xml:qcom
 
 PRODUCT_PACKAGES += \
 	QtiTelephonyService \
@@ -195,7 +205,25 @@ PRODUCT_PACKAGES += \
 	uimservicelibrary \
 	vendor.qti.ims.callinfo-V1.0-java \
 	vendor.qti.ims.rcsconfig-V1.0-java \
-	ImsLinks
+	ImsLinks \
+	cneapiclient.jar \
+	com.qti.dpmframework.jar \
+	com.qualcomm.qti.uceservice-V2.0-java.jar \
+	com.quicinc.cne.api-V1.0-java.jar \
+	com.quicinc.cne.api-V1.1-java.jar \
+	com.quicinc.cne.constants-V1.0-java.jar \
+	com.quicinc.cne.constants-V2.0-java.jar \
+	com.quicinc.cne.constants-V2.1-java.jar \
+	com.quicinc.cne.jar \
+	com.quicinc.cne.server-V1.0-java.jar \
+	com.quicinc.cne.server-V2.0-java.jar \
+	com.quicinc.cne.server-V2.1-java.jar \
+		com.quicinc.cne.server-V2.2-java.jar \
+	dpmapi.jar \
+	embmslibrary.jar \
+	vendor.qti.hardware.data.latency-V1.0-java.jar \
+	vendor.qti.hardware.data.qmi-V1.0-java.jar \
+	vendor.qti.latency-V2.0-java.jar
 
 # WLAN
 PRODUCT_COPY_FILES += vendor/xiaomi/dipper/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko

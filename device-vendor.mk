@@ -17,6 +17,17 @@
 PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/bin/dpmd:system/bin/dpmd:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
+	vendor/xiaomi/dipper/proprietary/lib/libbluetooth_qti.so:system/lib/libbluetooth_qti.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/libbt-logClient.so:system/lib/libbt-logClient.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/libqti-iopd-client_system.so:system/lib/libqti-iopd-client_system.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so:qcom \
@@ -92,6 +103,18 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:system/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:system/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so \
+	vendor/xiaomi/dipper/proprietary/lib64/libbluetooth_qti.so:system/lib64/libbluetooth_qti.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libbt-logClient.so:system/lib64/libbt-logClient.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libqti-iopd-client_system.so:system/lib64/libqti-iopd-client_system.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/libtas2557cal.so:system/lib64/libtas2557cal.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so:qcom \

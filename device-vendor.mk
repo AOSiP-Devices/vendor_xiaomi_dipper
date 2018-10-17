@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/bin/dpmd:system/bin/dpmd:qcom \
-	vendor/xiaomi/dipper/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
+	vendor/xiaomi/dipper/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/libbluetooth_qti.so:system/lib/libbluetooth_qti.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/libbt-logClient.so:system/lib/libbt-logClient.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so:qcom \
@@ -55,7 +55,7 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.ims.callinfo@1.0.so:system/lib/vendor.qti.ims.callinfo@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.ims.rcsconfig@1.0.so:system/lib/vendor.qti.ims.rcsconfig@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so:qcom \
-	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.latency@2.0.so:system/lib/vendor.qti.latency@2.0.so \
+	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.latency@2.0.so:system/lib/vendor.qti.latency@2.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/com.qualcomm.qti.uceservice@2.0.so:system/lib/com.qualcomm.qti.uceservice@2.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:qcom \
@@ -102,7 +102,7 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:system/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:system/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:system/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:qcom \
-	vendor/xiaomi/dipper/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so \
+	vendor/xiaomi/dipper/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/libbluetooth_qti.so:system/lib64/libbluetooth_qti.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/libbt-logClient.so:system/lib64/libbt-logClient.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so:qcom \
@@ -143,8 +143,8 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.ims.callinfo@1.0.so:system/lib64/vendor.qti.ims.callinfo@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/lib64/vendor.qti.ims.rcsconfig@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so:qcom \
-	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.latency@2.0.so:system/lib64/vendor.qti.latency@2.0.so \
-	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:system/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.latency@2.0.so:system/lib64/vendor.qti.latency@2.0.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:system/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:system/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib64/com.qualcomm.qti.uceservice@2.0.so:system/lib64/com.qualcomm.qti.uceservice@2.0.so:qcom \
@@ -253,4 +253,5 @@ PRODUCT_PACKAGES += \
 	vendor.qti.latency-V2.0-java.jar
 
 # WLAN
-PRODUCT_COPY_FILES += vendor/xiaomi/dipper/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko
+PRODUCT_COPY_FILES += \
+	vendor/xiaomi/dipper/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko:qcom

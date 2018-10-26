@@ -17,6 +17,11 @@
 PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/bin/dpmd:system/bin/dpmd:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so:qcom \
+	vendor/xiaomi/dipper/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
+	vendor/xiaomi/dipper/proprietary/lib/libldacBT_abr.so:system/lib/libldacBT_abr.so \
+	vendor/xiaomi/dipper/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
+	vendor/xiaomi/dipper/proprietary/lib/libradio_metadata.so:system/lib/libradio_metadata.so \
+	vendor/xiaomi/dipper/proprietary/lib/librcc.so:system/lib/librcc.so \
 	vendor/xiaomi/dipper/proprietary/lib/libbluetooth_qti.so:system/lib/libbluetooth_qti.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/libbt-logClient.so:system/lib/libbt-logClient.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so:qcom \
@@ -37,6 +42,10 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so:qcom \
+        vendor/xiaomi/dipper/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+        vendor/xiaomi/dipper/proprietary/lib64/libldacBT_abr.so:system/lib64/libldacBT_abr.so \
+        vendor/xiaomi/dipper/proprietary/lib64/libldacBT_enc.so:system/lib64/libldacBT_enc.so \
+        vendor/xiaomi/dipper/proprietary/lib64/librcc.so:system/lib64/librcc.so \
 	vendor/xiaomi/dipper/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so:qcom \
 	vendor/xiaomi/dipper/proprietary/lib/vendor.qti.hardware.radio.am@1.0.so:system/lib/vendor.qti.hardware.radio.am@1.0.so:qcom \
@@ -204,12 +213,14 @@ PRODUCT_COPY_FILES +=\
 	vendor/xiaomi/dipper/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml:qcom \
+        vendor/xiaomi/dipper/proprietary/etc/permissions/LteDirectDiscovery.xml:system/etc/permissions/LteDirectDiscovery.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml:qcom \
 	vendor/xiaomi/dipper/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml:qcom \
-	vendor/xiaomi/dipper/proprietary/etc/sensitive_pn.xml:system/etc/sensitive_pn.xml:qcom
+	vendor/xiaomi/dipper/proprietary/etc/sensitive_pn.xml:system/etc/sensitive_pn.xml:qcom \
+	vendor/xiaomi/dipper/proprietary/etc/wifibt_diag.cfg:system/etc/wifibt_diag.cfg
 
 PRODUCT_PACKAGES += \
 	QtiTelephonyService \
@@ -221,7 +232,6 @@ PRODUCT_PACKAGES += \
 	imssettings \
 	CNEService \
 	embms \
-	dpmserviceapp \
 	uceShimService \
 	com.qualcomm.qti.imscmservice-V2.0-java \
 	com.qualcomm.qti.imscmservice-V2.1-java \
@@ -250,7 +260,8 @@ PRODUCT_PACKAGES += \
 	embmslibrary.jar \
 	vendor.qti.hardware.data.latency-V1.0-java.jar \
 	vendor.qti.hardware.data.qmi-V1.0-java.jar \
-	vendor.qti.latency-V2.0-java.jar
+	vendor.qti.latency-V2.0-java.jar \
+	dpm.jar
 
 # WLAN
 PRODUCT_COPY_FILES += \

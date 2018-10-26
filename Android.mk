@@ -362,6 +362,16 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := dpm.jar
+LOCAL_MODULE_OWNER := qcom
+LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := dpmapi.jar
 LOCAL_MODULE_OWNER := qcom
 LOCAL_SRC_FILES := proprietary/framework/$(LOCAL_MODULE)

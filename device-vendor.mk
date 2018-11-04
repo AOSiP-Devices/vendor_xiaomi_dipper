@@ -262,7 +262,3 @@ PRODUCT_PACKAGES += \
 	vendor.qti.hardware.data.qmi-V1.0-java.jar \
 	vendor.qti.latency-V2.0-java.jar \
 	dpm.jar
-
-# WLAN
-PRODUCT_COPY_FILES += \
-	vendor/xiaomi/dipper/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko:qcom
